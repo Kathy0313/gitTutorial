@@ -8,6 +8,7 @@ public class Student extends Person {
     public Student(String name, String emailAddress, String major, boolean fulltime) {
         super(name, emailAddress);
         this.major = major;
+        this.fulltime = fulltime;
     }
 
     public void addCourse(Course c){
